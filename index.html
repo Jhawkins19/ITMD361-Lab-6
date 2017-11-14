@@ -27,7 +27,7 @@
 	</style>
 </head>
 <body>
-	<h1 class="center">ITMD-361 - Lab 7 - Basic JavaScript Event Handling and DOM</h1>
+	<h1 class="center">ITMD-361 - Lab 6 - Basic JavaScript Event Handling and DOM</h1>
 	<h2 class="center">Jasmine Hawkins</h2>
 	<h3 class="center">Jhawkins1@hawk.iit.edu</h3>
 	<div id="container">
@@ -36,16 +36,12 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-        
-     function 
-        alert('textoutput')
-        )
-        
-        var h2 =document.getElementById('entryinput');
-        h2.addEventListener('onclick',I was clicked);
-        d2.addEventListener('onclick', function(){
-            alert.('i was clicked');
-    }};
-		</script>
+        function myfunction(){
+        var button=document.getElementById('entryinput').nodeValue;
+        alert('Jasmine Hawkins'+'entryinput');
+        button.addEventListener("onclick", myfunction);
+        document.getElementById('entryinput').innerHTML="entryinput";
+        };
+    </script>
 </body>
 </html>
