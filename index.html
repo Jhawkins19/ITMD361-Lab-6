@@ -36,12 +36,13 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-        function myfunction()
-        {
-        alert('Jasmine Hawkins: ' +entryinput);
-        var input = document.getElementById('entryinput').value;
-        document.getElementById('input').addEventListener('onclick');
-        document.getElementById('textoutput').innerHTML= ('entryinput');
+        entrybutton.addEventListener('click',myfunction);
+        function myfunction()  {
+        var input = document.getElementById("entryinput").value;
+        alert("Jasmine Hawkins: " +entryinput);
+       
+        document.getElementById("textoutput")
+        .innerHTML=("entryinput");
         }
     </script>
 </body>
