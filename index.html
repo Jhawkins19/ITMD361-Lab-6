@@ -35,15 +35,13 @@
 		<div id="entrybutton">Alert Me</div>
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
-	<script type="text/javascript">
+     <script type="text/javascript">
         entrybutton.addEventListener('click',myfunction);
         function myfunction()  {
         var input = document.getElementById("entryinput").value;
-        alert("Jasmine Hawkins: " +entryinput);
-       
-        document.getElementById("textoutput")
-        .innerHTML=("entryinput");
+        alert('Jasmine Hawkins: ' +entryinput.value);
+        document.getElementById("textoutput").innerHTML=("entryinput");
         }
-    </script>
+     </script>
 </body>
 </html>
